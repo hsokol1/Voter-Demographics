@@ -21,7 +21,6 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 assignment = pd.read_csv("voterdemo.csv")
 assignment.head()
 
-#EDA
 assignment.duplicated().sum()
 
 assignment.dtypes
